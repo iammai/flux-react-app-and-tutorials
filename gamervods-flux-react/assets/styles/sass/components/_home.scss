@@ -1,0 +1,67 @@
+.btn-floating.btn-large.upvote {
+
+  padding-top: 5px;
+  line-height:100%;
+  i {
+    line-height: 25px;
+  }
+}
+
+.story-header {
+  position:  absolute;
+  padding: 20px;
+}
+
+.teams-card {
+  padding: 20%;
+}
+
+.nav-sub {
+  height: 40px;
+  line-height: 40px;
+
+  .sub-header {
+    font-size: 1.5rem;
+  }
+}
+
+.championBackground {
+  position: relative;
+
+  img {
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+  }
+}
+
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
+}
+
+.goat-logo {
+  background-image: url("../../img/goat-icon-76.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+  .logo-name {
+    padding-left: 80px;
+  }
+}
+
+.goat-header {
+  float: left;
+}
+
+.upvote-color {
+  background-color: #76ff03;
+}

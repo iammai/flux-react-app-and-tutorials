@@ -1,0 +1,29 @@
+{
+    "name": "gamervods-flux",
+    "version": "0.0.1",
+    "description": "gamervods in flux react",
+    "main": "app/app.js",
+    "dependencies": {
+        "flux": "^2.0.0",
+        "react": "^0.13.3",
+        "underscore": "^1.7.0"
+    },
+    "devDependencies": {
+        "browserify": "~6.2.0",
+        "envify": "~3.0.0",
+        "react": "^0.13.3",
+        "reactify": "^0.15",
+        "watchify": "~2.1.0"
+    },
+    "scripts": {
+        "start": "watchify -o app/bundle.js -v -d .",
+        "build": "browserify . | uglifyjs -cm > app/bundle.min.js"
+    },
+    "author": "Mailan Reiser",
+    "browserify": {
+        "transform": [
+            "reactify",
+            "envify"
+        ]
+    }
+}

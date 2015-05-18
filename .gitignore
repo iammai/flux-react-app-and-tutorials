@@ -1,0 +1,4 @@
+.bowerrc
+.idea/*
+assets/styles/.sass-cache/**/*
+3assets/libs/materialize/.sass-cache/**/*

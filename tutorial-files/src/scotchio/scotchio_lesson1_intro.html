@@ -1,0 +1,31 @@
+<!--https://scotch.io/tutorials/learning-react-getting-started-and-concepts-->
+<!--You are using the in-browser JSX transformer. Be sure to precompile your JSX for production - http://facebook.github.io/react/docs/tooling-integration.html#jsx-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../../tutorial-files/build/react.js"></script>
+    <script src="../../tutorial-files/build/JSXTransformer.js"></script>
+</head>
+<body>
+<div id="mount-point"></div>
+<div id="mount-nojsx"></div>
+
+<script type="text/jsx">
+/** @jsx React.DOM */
+React.render(
+<h1>Hello, world! (with JSX)</h1>,
+document.getElementById('mount-point')
+);
+</script>
+
+
+<script>
+    React.render(
+            React.DOM.h1(null, 'Hello, without JSX!!'),
+            document.getElementById('mount-nojsx')
+    );
+</script>
+
+</body>
+</html>
