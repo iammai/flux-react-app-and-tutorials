@@ -52,6 +52,7 @@ PNG of what you should see
 ![Gamervods Game Page in React and flux](gamervods-flux-react-page1.png)
 ![Gamervods Game Page in React and flux](gamervods-flux-react-page2.png)
 
+```
 Gamervods Flux React App
 ├── app
 │   ├── GameData.js
@@ -77,7 +78,7 @@ Gamervods Flux React App
 ├── comments.json
 ├── index.html
 └── package.json
-
+```
 
 NPM Commands
 
